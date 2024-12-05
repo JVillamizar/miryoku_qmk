@@ -148,9 +148,9 @@ KC_Z,              KC_X,              KC_C,              KC_V,              KC_B
 U_NP,              U_NP,              KC_DEL,            KC_BSPC,           KC_ENT,            KC_TAB,            KC_SPC,            KC_ESC,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDH_FLIP \
-KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_QUOT,           \
-KC_A,              KC_R,              KC_S,              KC_T,              KC_G,              KC_M,              KC_N,              KC_E,              KC_I,              KC_O,              \
-KC_Z,              KC_X,              KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           KC_DOT,            TD(U_TD_U_BASE),           \
+KC_Q,              KC_W,              KC_F,              KC_P,              KC_B,              KC_J,              KC_L,              KC_U,              KC_Y,              KC_SLSH,           \
+KC_A,              LALT_T(KC_R),      LCTL_T(KC_S),      LSFT_T(KC_T),      KC_G,              KC_M,              LSFT_T(KC_N),      LCTL_T(KC_E),      LALT_T(KC_I),      KC_O,              \
+KC_Z,              ALGR_T(KC_X),      KC_C,              KC_D,              KC_V,              KC_K,              KC_H,              KC_COMM,           KC_DOT,            TD(U_TD_U_BASE),           \
 U_NP,              U_NP,              KC_DEL,            KC_ENT,           KC_BSPC,            KC_SPC,            KC_TAB,            KC_ESC,            U_NP,              U_NP
 
 #define MIRYOKU_ALTERNATIVES_TAP_COLEMAKDHK_FLIP \
